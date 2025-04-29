@@ -128,3 +128,22 @@ header {
     transition: 1s ease;
     color:#004085;
 }
+home {
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0 30px 0;
+}
+.home {
+    font-size: 40px;
+}
+.home b {
+    font-size: 40px;
+    color:#007BFF;
+}
+home img {
+    max-width: 30%;
+    border-radius: 50px;
+}
