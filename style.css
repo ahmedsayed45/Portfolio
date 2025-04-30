@@ -166,7 +166,7 @@ about {
 }
 about h2{
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 .about{
     padding:20px;
@@ -181,4 +181,45 @@ about h2{
 }
 .about b {
     color:#dfc856
+}
+services {
+    display:flex;
+    flex-direction: column;
+    margin: 30px 0 30px 0;
+    align-items: center;
+    justify-content: center;
+    background-color: #eee;
+    padding: 30px 0 30px 0;
+}
+.servicescards{
+    max-width: 80%;
+    background-color: #eee;
+    align-items: center;
+    justify-content: space-between;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+services h2 {
+    padding: 10px;
+    border-radius: 15px; 
+}
+.services {
+    background-color: #f4f4f4;
+    border-radius: 20px;
+    font-size: 34px;
+    max-width: 23%;
+    color:#306ca0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:20px;
+}
+.services:hover{
+    transform: scale(1.02);
+    transform: translateY(-5px);
+    box-shadow:  5px 10px #abbbd1;
+    transition: 1s ease;
+}
+.services:active{
+    transform: scale(0.95);
+    transition: 1s ease;
 }
