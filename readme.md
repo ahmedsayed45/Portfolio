@@ -18,7 +18,6 @@ This repository contains the source code for Ahmed Elsayed's personal website. T
 - `main.js`: JavaScript file for interactive features (if any).
 - `logo.png`: Logo image used in the header.
 - `me.jpg`: Personal image of Ahmed Elsayed.
-- `program.cpp` and `program.exe`: Additional files unrelated to the website.
 
 ## How to View the Website
 
