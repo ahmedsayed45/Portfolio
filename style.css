@@ -212,8 +212,8 @@ services h2 {
 .services {
     background-color: #f4f4f4;
     border-radius: 20px;
-    max-width: 23%;
     padding:20px;
+    margin:20px;
 }
 .services h3 b {
     font-size: 30px;
